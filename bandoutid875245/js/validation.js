@@ -9,7 +9,7 @@ function validate() {
 
   var emailReg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   var numReg = /^\d{10}$/;
-  var membersReg = /^[5-9]$/;
+  var membersReg = /^[4-7]$/;
 
   if (bandName != "") {
     if (college != "") {
@@ -38,7 +38,7 @@ function validate() {
           return false;
         }
       } else {
-        alert("Members Must Be Within 5 - 9");
+        alert("Number of Members Must Be Within 4 - 7");
         return false;
       }
     } else {
