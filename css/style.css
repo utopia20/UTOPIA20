@@ -1105,8 +1105,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #supporters .supporters-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
+/*  border-top: 1px solid #e0e5fa;*/
+/*  border-left: 1px solid #e0e5fa;*/
   margin-bottom: 30px;
 }
 
@@ -1114,7 +1114,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -1125,7 +1125,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
-  height: 160px;
+  height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 #supporters .supporter-logo:hover img {
@@ -1700,11 +1703,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 	background-color: black;
 }
 
-a[href^="tel"], a[href^="http"] a[href^="https"] {
+a[href^="http"] a[href^="https"] {
   	color: white;
 }
 
-a[href^="tel"], a[href^="http"]:hover a[href^="https"]:hover{
+a[href^="http"]:hover a[href^="https"]:hover{
 	color: darkgray;
 }
 

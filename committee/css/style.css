@@ -2379,11 +2379,16 @@ fieldset[disabled] .s-btn {
 	padding-top: 20px;
 }
 
+.g-color--blue-mod {
+	color: powderblue;
+}
+
 .g-color--blue {
-	color: cadetblue;
+	color: midnightblue;
 }
 
 .g-color--p {
 	color: #007799;
 	font-size: 18px;
 }
+
